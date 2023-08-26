@@ -1,0 +1,6 @@
+@inproceedings{an2023bigger,
+  title={Is Bigger Always Better? An Empirical Study on Efficient Architectures for Style Transfer and Beyond},
+  author={An, Jie and Li, Tao and Huang, Haozhi and Ma, Jinwen and Luo, Jiebo},
+  booktitle=WACV,
+  year={2023}
+}

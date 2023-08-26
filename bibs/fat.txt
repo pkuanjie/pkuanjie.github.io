@@ -1,0 +1,6 @@
+@inproceedings{wan2022facial,
+  title={Facial attribute transformers for precise and robust makeup transfer},
+  author={Wan, Zhaoyi and Chen, Haoran and An, Jie and Jiang, Wentao and Yao, Cong and Luo, Jiebo},
+  booktitle=WACV,
+  year={2022}
+}

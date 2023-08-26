@@ -1,0 +1,6 @@
+@article{chen2022improving,
+  title={Improving Visual-textual Sentiment Analysis by Fusing Expert Features},
+  author={Chen, Junyu and An, Jie and Lyu, Hanjia and Luo, Jiebo},
+  journal={arXiv preprint arXiv:2211.12981},
+  year={2022}
+}

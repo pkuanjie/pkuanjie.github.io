@@ -1,0 +1,6 @@
+@inproceedings{huang2023quantart,
+  title={Quantart: Quantizing image style transfer towards high visual fidelity},
+  author={Huang, Siyu and An, Jie and Wei, Donglai and Luo, Jiebo and Pfister, Hanspeter},
+  booktitle=CVPR,
+  year={2023}
+}

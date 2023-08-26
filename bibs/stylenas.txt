@@ -1,0 +1,6 @@
+@inproceedings{an2020ultrafast,
+  title={Ultrafast photorealistic style transfer via neural architecture search},
+  author={An, Jie and Xiong, Haoyi and Huan, Jun and Luo, Jiebo},
+  booktitle=AAAI,
+  year={2020}
+}

@@ -1,0 +1,6 @@
+@article{an2023latent,
+  title={Latent-shift: Latent diffusion with temporal shift for efficient text-to-video generation},
+  author={An, Jie and Zhang, Songyang and Yang, Harry and Gupta, Sonal and Huang, Jia-Bin and Luo, Jiebo and Yin, Xi},
+  journal={arXiv preprint arXiv:2304.08477},
+  year={2023}
+}

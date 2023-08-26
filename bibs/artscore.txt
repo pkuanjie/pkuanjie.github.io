@@ -1,0 +1,6 @@
+@article{chen2023learning,
+  title={Learning to Evaluate the Artness of AI-generated Images},
+  author={Chen, Junyu and An, Jie and Lyu, Hanjia and Luo, Jiebo},
+  journal={arXiv preprint arXiv:2305.04923},
+  year={2023}
+}

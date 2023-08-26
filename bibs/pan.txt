@@ -1,0 +1,6 @@
+@article{li2018pyramid,
+  title={Pyramid attention network for semantic segmentation},
+  author={Li, Hanchao and Xiong, Pengfei and An, Jie and Wang, Lingxue},
+  journal=BMVC,
+  year={2018}
+}

@@ -1,0 +1,7 @@
+@article{huang2023domain,
+  title={Domain-Scalable Unpaired Image Translation Via Latent Space Anchoring},
+  author={Huang, Siyu and An, Jie and Wei, Donglai and Lin, Zudi and Luo, Jiebo and Pfister, Hanspeter},
+  journal=TPAMI
+  year={2023},
+  publisher={IEEE}
+}

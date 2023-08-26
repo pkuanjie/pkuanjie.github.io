@@ -1,0 +1,6 @@
+@inproceedings{an2021global,
+  title={Global image sentiment transfer},
+  author={An, Jie and Chen, Tianlang and Zhang, Songyang and Luo, Jiebo},
+  booktitle=ICPR,
+  year={2021}
+}
