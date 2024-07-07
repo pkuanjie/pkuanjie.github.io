@@ -75,6 +75,8 @@
                                 <td style="padding:20px;width:100%;vertical-align:middle">
                                     <h2>News</h2>
                                     <ul>
+                                        <li>[2024/06] Our work <a href="https://arxiv.org/pdf/2310.07749">OpenLEAF: Open-Domain Interleaved Image-Text Generation and Evaluation</a> is accepted to ACM MM 2024 BNI track. Many thanks to the collaborators!</li>
+                                        <li>[2024/05] Our work <a href="https://arxiv.org/pdf/2401.02414">Bring Metric Functions into Diffusion Models</a> is accepted to IJCAI 2024. Many thanks to the collaborators!</li>
                                         <li>[2024/03] We will organize the first workshop on <a href="https://t2mmg.github.io/t2mm2024/">Visual-Language Alignment in Text-Guided Multi-Modal Generation (T2MM)</a> in conjunction with #<a href="https://2024.ieeeicme.org"></a>ICME2024. <a href="https://cmt3.research.microsoft.com/ICME2024W">Welcome to submit your workshop papers!</a></li>
                                         <li>[2024/03] I will join Apple as a research intern this summer.</li>
                                         <li>[2023/02] I will join <a
@@ -98,6 +100,78 @@
                     <table
                         style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                         <tbody>
+
+                            <tr onmouseout="openleaf_stop()" onmouseover="openleaf_start()">
+                                <td style="padding:20px;width:25%;vertical-align:middle">
+                                    <div class="one">
+                                        <div class="two" id='openleaf_image'>
+                                            <img src='images/openleaf_before.png' width="160">
+                                        </div>
+                                        <img src='images/openleaf_before.png' width="160">
+                                    </div>
+                                    <script type="text/javascript">
+                                        function openleaf_start() {
+                                            document.getElementById('openleaf_image').style.opacity = "1";
+                                        }
+
+                                        function openleaf_stop() {
+                                            document.getElementById('openleaf_image').style.opacity = "0";
+                                        }
+                                        openleaf_stop()
+                                    </script>
+                                </td>
+                                <td style="padding:20px;width:75%;vertical-align:middle">
+                                    <a href="https://arxiv.org/pdf/2310.07749">
+                                        <span class="papertitle">OpenLEAF: Open-Domain Interleaved Image-Text Generation and Evaluation</span>
+                                    </a>
+                                    <br>
+                                        <strong>Jie An</strong><sup>*</sup>, Zhengyuan Yang, Linjie Li, Jianfeng Wang, Kevin Lin, Zicheng Liu, Lijuan Wang, Jiebo Luo
+                                    <br>
+                                    <em>ACM MM (BNI Track)</em> 2024
+                                    &nbsp|&nbsp
+                                    <a href="bibs/openleaf.txt" target="_blank">BibTex</a>
+                                    <p></p>
+                                    <p>
+                                        <span style="color: gray;">We introduce a benchmark dataset, an evaluation pipeline, and a set of baseline models for interleaved image-text generation task.</span>
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr onmouseout="casdm_stop()" onmouseover="casdm_start()">
+                                <td style="padding:20px;width:25%;vertical-align:middle">
+                                    <div class="one">
+                                        <div class="two" id='casdm_image'>
+                                            <img src='images/casdm.png' width="160">
+                                        </div>
+                                        <img src='images/casdm.png' width="160">
+                                    </div>
+                                    <script type="text/javascript">
+                                        function casdm_start() {
+                                            document.getElementById('casdm_image').style.opacity = "1";
+                                        }
+
+                                        function casdm_stop() {
+                                            document.getElementById('casdm_image').style.opacity = "0";
+                                        }
+                                        casdm_stop()
+                                    </script>
+                                </td>
+                                <td style="padding:20px;width:75%;vertical-align:middle">
+                                    <a href="https://arxiv.org/pdf/2401.02414">
+                                        <span class="papertitle">Bring Metric Functions into Diffusion Models</span>
+                                    </a>
+                                    <br>
+                                        <strong>Jie An</strong>, Zhengyuan Yang, Jianfeng Wang, Linjie Li, Zicheng Liu, Lijuan Wang, Jiebo Luo
+                                    <br>
+                                    <em>IJCAI</em> 2024
+                                    &nbsp|&nbsp
+                                    <a href="bibs/casdm.txt" target="_blank">BibTex</a>
+                                    <p></p>
+                                    <p>
+                                        <span style="color: gray;">We study how to ultilize LPIPS loss in diffusion model training to improve the image generation quality.</span>
+                                    </p>
+                                </td>
+                            </tr>
 
                             <tr onmouseout="latentshift_stop()" onmouseover="latentshift_start()">
                                 <td style="padding:20px;width:25%;vertical-align:middle">
@@ -164,7 +238,7 @@
                                     <br>
                                         Junyu Chen, <strong>Jie An</strong>, Hanjia Lyu, Jiebo Luo
                                     <br>
-                                    <em>Arxiv</em> 2023
+                                    <em>TMM</em> 2024
                                     &nbsp|&nbsp
                                     <a href="bibs/artscore.txt" target="_blank">BibTex</a>
                                     <p></p>
@@ -195,12 +269,12 @@
                                 </td>
                                 <td style="padding:20px;width:75%;vertical-align:middle">
                                     <a href="https://arxiv.org/abs/2211.12981">
-                                        <span class="papertitle">Improving Visual-textual Sentiment Analysis by Fusing Expert Features</span>
+                                        <span class="papertitle">Holistic Visual-Textual Sentiment Analysis with Prior Models</span>
                                     </a>
                                     <br>
                                         Junyu Chen, <strong>Jie An</strong>, Hanjia Lyu and Jiebo Luo
                                     <br>
-                                    <em>Arxiv</em> 2023
+                                    <em>MIPR</em> 2024
                                     &nbsp|&nbsp
                                     <a href="bibs/fef.txt" target="_blank">BibTex</a>
                                     <p></p>
@@ -569,13 +643,25 @@
                             <tr>
                                 <td style="padding:20px;width:25%;vertical-align:middle;">
                                     <div class="one">
+                                        <img src='images/apple.png' width="70">
+                                    </div>
+                                </td>
+                                <td style="padding:20px;width:75%;vertical-align:middle">
+                                    <a href="https://machinelearning.apple.com">Apple</a>
+                                    <br>
+                                        [2024/05 - Present] Advisor: <a href="https://www.alexander-schwing.de">Alexander Schwing</a>, <a href="https://scholar.google.com/citations?user=QiWbLt8AAAAJ&hl=en">Andy (De) Wang</a>, <a href="https://psguo.github.io">Pengsheng Guo</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding:20px;width:25%;vertical-align:middle;">
+                                    <div class="one">
                                         <img src='images/microsoft.png' width="160">
                                     </div>
                                 </td>
                                 <td style="padding:20px;width:75%;vertical-align:middle">
                                     <a href="https://www.microsoft.com/en-us/research/group/cognitive-services-research/">Microsoft Cloud & AI</a>
                                     <br>
-                                        [2023/02 - 2023/12] Advisor: <a href="https://zyang-ur.github.io/">Zhengyuan Yang</a>, Jianfeng Wang, Linjie Li, Lijuan Wang, Zicheng Liu
+                                        [2023/02 - 2024/4] Advisor: <a href="https://zyang-ur.github.io/">Zhengyuan Yang</a>, Jianfeng Wang, Linjie Li, Lijuan Wang, Zicheng Liu
                                     <br>
                                         Project: Diffusion model and visual-language generation.
                                 </td>
@@ -592,6 +678,48 @@
                                         [2022/05 - 2022/12] Advisor: <a href="https://scholar.google.com/citations?user=jpIFgToAAAAJ">Harry Yang</a>, <a href="https://xiyinmsu.github.io/">Xi Yin</a>, Sonal Gupta 
                                     <br>
                                         Project: Text-to-video generation.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding:20px;width:25%;vertical-align:middle;">
+                                    <div class="one">
+                                        <img src='images/tencent.png' width="160">
+                                    </div>
+                                </td>
+                                <td style="padding:20px;width:75%;vertical-align:middle">
+                                    <a href="https://ai.tencent.com/ailab/en/about/">Tencent AI Lab</a>
+                                    <br>
+                                        [2019/07 - 2021/07] Advisor: <a href="https://ybsong00.github.io">Yibing Song</a>, <a href="https://cg.cs.tsinghua.edu.cn/people/~huanghz/">Haozhi Huang</a>
+                                    <br>
+                                        Project: Image artistic style transfer.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding:20px;width:25%;vertical-align:middle;">
+                                    <div class="one">
+                                        <img src='images/baidu.png' width="160">
+                                    </div>
+                                </td>
+                                <td style="padding:20px;width:75%;vertical-align:middle">
+                                    <a href="http://research.baidu.com">Baidu Big Data Lab</a>
+                                    <br>
+                                        [2019/01 - 2019/07] Advisor: <a href="https://sites.google.com/site/haoyixiongshomepage/">Haoyi Xiong</a>, <a href="https://www.linkedin.com/in/jun-luke-huan-58963121/">Jun (Luke) Huan</a>
+                                    <br>
+                                        Project: Image artistic style transfer.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding:20px;width:25%;vertical-align:middle;">
+                                    <div class="one">
+                                        <img src='images/megvii.png' width="160">
+                                    </div>
+                                </td>
+                                <td style="padding:20px;width:75%;vertical-align:middle">
+                                    <a href="https://www.faceplusplus.com">Megvii (Face++)</a>
+                                    <br>
+                                        [2017/10 - 2018/06] Advisor: <a href="https://sites.google.com/view/pengfeixiong/about-me?authuser=1">Pengfei Xiong</a>
+                                    <br>
+                                        Project: Semantic Segmentation.
                                 </td>
                             </tr>
                         </tbody>
@@ -613,11 +741,11 @@
                                 <td style="padding:20px;width:75%;vertical-align:middle">
                                     <h3>Conference Reviewer</h3>
                                     <ul>
-                                        <li>CVPR 2022 - 2023</li>
+                                        <li>CVPR 2022 - 2024</li>
                                         <li>ICCV 2021, 2023</li>
                                         <li>ECCV 2022</li>
                                         <li>WACV 2022 - 2024</li>
-                                        <li>NeurIPS 2023</li>
+                                        <li>NeurIPS 2024</li>
                                         <li>EMNLP 2023</li>
                                         <li>ACL 2023</li>
                                         <li>ICME 2023</li>

@@ -1,0 +1,6 @@
+@inproceedings{an2024casdm,
+  title={Bring Metric Functions into Diffusion Models},
+  author={An, Jie and Yang, Zhengyuan and Wang, Jianfeng and Li, Linjie and Liu, Zicheng and Wang, Lijuan and Luo, Jiebo},
+  booktitle=IJCAI,
+  year={2024}
+}
