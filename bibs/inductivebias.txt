@@ -1,0 +1,6 @@
+@inproceedings{an2024ditgeneralization,
+                    title   = {On Inductive Biases That Enable Generalization of Diffusion Transformers}, 
+                    author  = {Jie An and De Wang and Pengsheng Guo and Jiebo Luo and Alexander Schwing},
+                    journal = NeurIPS,
+                    year    = {2025},
+                    }

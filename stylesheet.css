@@ -79,15 +79,14 @@ td,
 th,
 tr,
 p {
-    background: #1f1e1c;
-    color: #fffff0;
+    background: #ffffff;
+    color: #000000;
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
     font-size: 14px;
 }
 a {
-    background: #1f1e1c;
+    background: #ffffff;
     color: #6495ed;
-    /* color: #ffb300; */
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
     font-size: 14px;
 }

@@ -1,0 +1,6 @@
+@inproceedings{chen2025ouroboros,
+  title={Ouroboros-diffusion: Exploring consistent content generation in tuning-free long video diffusion},
+  author={Chen, Jingyuan and Long, Fuchen and An, Jie and Qiu, Zhaofan and Yao, Ting and Luo, Jiebo and Mei, Tao},
+  booktitle=AAAI,
+  year={2025}
+}

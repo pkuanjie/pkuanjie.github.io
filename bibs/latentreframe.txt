@@ -1,0 +1,6 @@
+@inproceedings{zhou2024latent,
+  title={Latent-reframe: Enabling camera control for video diffusion model without training},
+  author={Zhou, Zhenghong and An, Jie and Luo, Jiebo},
+  journal=ICCV,
+  year={2025}
+}

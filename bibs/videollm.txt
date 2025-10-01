@@ -1,0 +1,6 @@
+@article{tang2025video,
+  title={Video understanding with large language models: A survey},
+  author={Tang, Yunlong and Bi, Jing and Xu, Siting and Song, Luchuan and Liang, Susan and Wang, Teng and Zhang, Daoan and An, Jie and Lin, Jingyang and Zhu, Rongyi and others},
+  journal=TCSVT,
+  year={2025}
+}
