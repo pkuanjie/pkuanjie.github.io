@@ -82,38 +82,38 @@ p {
     background: #ffffff;
     color: #000000;
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 a {
     background: #ffffff;
     color: #6495ed;
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 strong {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 h2 {
     margin: 0;
     font-weight: normal;
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .papertitle {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
 }
 
 .name {
-    padding-top: 20px;
+    padding-top: 22px;
     margin: 0;
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 32px;
+    font-size: 34px;
 }
 
 .one {
@@ -147,3 +147,35 @@ span.highlight {
     background-color: #ffffd0;
 }
 
+.profile-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
+}
+
+.profile-img {
+    width: 100%;
+    max-width: 100%;
+    transition: opacity 0.3s ease;
+    display: block;
+}
+
+.hover-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.profile-container:hover .hover-img {
+    opacity: 1;
+}
+
+.profile-container:hover .default-img {
+    opacity: 0;
+}
+
+ul li {
+    margin-bottom: 6px;
+}
